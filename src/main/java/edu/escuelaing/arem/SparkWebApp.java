@@ -18,5 +18,4 @@ public class SparkWebApp
         }
         return 4567; //returns default port if heroku-port isn't set(i.e. on localhost)
     }
-
 }
