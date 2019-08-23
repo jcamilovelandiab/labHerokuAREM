@@ -1,7 +1,5 @@
 package edu.escuelaing.arem;
 
-import java.io.*;
-
 /**
  * This class is a generic linked list.
  * @author Juan Camilo Velandia Botello

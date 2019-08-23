@@ -22,24 +22,6 @@ public class SparkWebApp
         get("/inputdata", (req, res) -> inputDataPage(req, res));
         get("/results", (req, res) -> resultsPage(req, res));
         
-        post("/mean",(req,res)-> {
-            String[] numbers=req.body().split(" ");
-            LinkedList<Double> list = new LinkedList<Double>();
-            for(String i: numbers){ 
-                list.add_back(Double.parseDouble(i));    
-            }
-            return App.mean(list);
-        });
-
-        post("/stdeviation",(req,res)-> {
-            String[] numbers=req.body().split(" ");
-            LinkedList<Double> list=new LinkedList<Double>();
-            for(String i: numbers){
-                list.add_back(Double.parseDouble(i));
-            }
-            return App.standardDeviation(list);
-        });
-
     }
 
     private static String inputDataPage(Request req, Response res) {
@@ -47,7 +29,7 @@ public class SparkWebApp
                 = "<!DOCTYPE html>"
                 + "<html>"
                 + "<body>"
-                + "<h2>HTML Forms</h2>"
+                + "<h2>AREM Calculator</h2>"
                 + "<form action=\"/results\">"
                 + "  Please. Insert the numbers separated by spaces:<br>"
                 + "  <input type=\"text\" name=\"numbers\" value=\"\">"
