@@ -10,7 +10,7 @@ The following formulas were used to calculate the mean and standard deviation of
 
 ## Heroku
 
-The web application is deployed in heroku. To visit the website go to the following link. [Calculator (https://sparklab2.herokuapp.com/inputdata "Heroku Page")
+The web application is deployed in heroku. To visit the website go to the following link. [SparkWeb Calculator](https://sparklab2.herokuapp.com/inputdata "Heroku Page")
 
 ## Prerrequisites
 
