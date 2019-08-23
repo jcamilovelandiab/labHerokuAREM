@@ -14,7 +14,7 @@ The web application is deployed in heroku. To visit the website go to the follow
 
 ## Prerrequisites
 
-If you want to download and run the source code you it is necessary to have installed java 1.8 and Apache Maven 3.6.0  on the computer where the program will run.
+If you want to download and run the source code, it is necessary to have installed java 1.8 and Apache Maven 3.6.0  on the computer where the program will run.
 
 ## RUNNING THE PROJECT
 
