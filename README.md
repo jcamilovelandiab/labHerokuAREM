@@ -16,17 +16,29 @@ The web application is deployed in heroku. To visit the website go to the follow
 
 If you want to download and run the source code, it is necessary to have installed java 1.8 and Apache Maven 3.6.0  on the computer where the program will run.
 
-## RUNNING THE PROJECT
+## Running the project
 
 To download the project dependencies the following line must be executed.
 ```
 mvn package
 ```
 
+To execute the project
+```
+mvn exec:java -Dexec.mainClass="edu.escuelaing.arem.SparkWebApp"
+```
+
+To open the website locally go to
+```
+http://localhost:4567/inputdata
+```
+
 Execute this line to see the java documentation.
 ```
 mvn javadoc:jar
 ```
+
+
 ## Testing
 
 Table 1 shows the data used to test the program.
