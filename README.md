@@ -2,6 +2,12 @@
 
 In this laboratory a web application was designed with Spark Web and Maven.
 
+The user enters the data on the website, and the program calculates the mean and standard deviation of the entered data.
+
+The following formulas were used to calculate the mean and standard deviation of the linked list.
+
+![](https://github.com/jcamilovelandiab/TareaMVNGIT/blob/master/images/formulas.PNG)
+
 ## Heroku
 
 The web application is deployed in heroku. The following line is the link of the website.
